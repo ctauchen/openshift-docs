@@ -7,6 +7,13 @@
 
 {product-title} supports the following network interface controller (NIC) models:
 
+// What information do we need to include here? 
+// Manufacturer, Model Number, vendor ID, device ID
+// But there are two device IDs: PF device ID (physical device) and VF device ID (virtual device).
+// Which one is assumed below?
+
+//* Broadcom BCM57414 50GbE with vendor ID `xxx` and device ID `yyy`
+//* Broadcom BCM75508 XXX with vendor ID `xxx` and device ID `yyy`
 * Intel X710 10GbE SFP+ with vendor ID `0x8086` and device ID `0x1572`
 * Intel XL710 40GbE SFP+ with vendor ID `0x8086` and device ID `0x1583`
 * Intel XXV710 25GbE SFP28 with vendor ID `0x8086` and device ID `0x158b`
@@ -21,3 +28,7 @@
 * Mellanox MT28880 Family [ConnectX-5 Ex] Ethernet controller, 100Gb/s, dual-port QSPF28 with vendor ID `0x15b3` and device ID `0x1019`
 * Mellanox MT28908 Family [ConnectX-6] VPI adapter card, 100Gb/s (HDR100, EDR IB), single-port QSFP56 with vendor ID `0x15b3` and device ID `0x101b`
 * Mellanox MT28908 Family [ConnectX-6] VPI adapter card, HDR200 IB (200Gb/s), single-port QSFP56 with vendor ID `0x15b3` and device ID `0x101b`
+//* Pensando DSC-25 25GbE with vendor ID `0x1dd8` and device ID `0x1002`
+//* Pensando DSC-100 100GbE with vendor ID `0x1dd8` and device ID `0x1003`
+//* Silicom P410G8TS81 STS2 with vendor ID `0x8086`and device ID `xxx` 
+//* Silicom P425G410G8TS81 STS4 vendor ID `0x8086`and device ID `xxx` 
